@@ -101,3 +101,11 @@ footer button {
   border: 1px solid rgb(84, 173, 65);
   background: rgb(84, 173, 65);
 }
+
+.selected {
+  background-color: rgb(128, 128, 128);
+}
+
+.completed {
+  text-decoration: line-through;
+}
