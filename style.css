@@ -9,20 +9,15 @@ body {
   font-size: 15px;
   width: 100vw;
   height: 100vh;
+  display: flex;
 }
 
 main {
-  position: relative;
-  top: 35%;
-  margin: auto;
-  width: 80%;
   background: white;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  margin: auto;
+  width: 80%;
   padding: 1em;
-}
-
-ol {
-  margin: 1em;
 }
 
 main h1 {
@@ -33,4 +28,29 @@ main h1 {
 main p {
   text-align: center;
   margin-bottom: 1em;
+}
+
+.container {
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid black;
+}
+
+ol {
+  margin-left: 2em;
+}
+
+button {
+  border: 1px solid rgb(11, 94, 215);
+  border-radius: 10px;
+  border-color: rgb(11, 94, 215);
+  background: rgb(11, 94, 215);
+  color: white;
+  padding: 0.3em;
+  width: 100px;
+}
+
+.text {
+  color: rgb(145, 35, 27);
+  background: rgb(243, 127, 48);
 }
