@@ -16,7 +16,6 @@ function selectItemList(){
   taskList.addEventListener('click', function(event){
   const selectedItem = event.target;
   let selected = document.querySelectorAll('.selected');
-  console.log(selected);
   for (let index = 0; index < selected.length; index += 1) {
     selected[index].classList.remove('selected');
   }
@@ -25,12 +24,13 @@ function selectItemList(){
 }
 
 function completedItemList(){
-  const listItem = document.querySelectorAll('li');
-  console.log(listItem);
+  taskList.addEventListener('dblclick', function(event){
+  const completedItem = event.target;
+  completedItem.classList.toggle('completed');
+  });
 }
 
-completedItemList();
-
 selectItemList();
+completedItemList();
 
 
