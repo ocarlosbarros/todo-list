@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
   <link rel="stylesheet" href="style.css">
   <title>To Do List</title>
 </head>
@@ -18,10 +19,20 @@
         <input id="texto-tarefa" type="text">
         <button id="criar-tarefa" type="button">Adicionar</button>
       </div>
-      <div class="container">
-        <ol id="lista-tarefas"></ol>
+      <div class="container border">
+        <ol id="lista-tarefas">
+        <li class="item-list">HTML</li>
+        <li class="item-list">CSS</li>
         </ol>
       </div>
+      <footer class="container">
+        <button class="red"><i class="far fa-times-circle"></i></button>
+        <button class="orange"><i class="fas fa-arrow-up"></i></button>
+        <button class="orange"><i class="fas fa-arrow-down"></i></button>
+        <button class="red">Limpar Completos</button>
+        <button class="blue">Limpar Lista</button>
+        <button class="green">Salvar</button>
+      </footer>
     </section>
   </main>
   <script src="script.js"></script>

@@ -33,6 +33,9 @@ main p {
 .container {
   margin: 1em;
   padding: 1em;
+}
+
+.border {
   border: 1px solid black;
 }
 
@@ -42,6 +45,7 @@ ol {
 
 ol li {
   margin-bottom: 0.5em;
+  width: 100%;
 }
 
 input[type="text"] {
@@ -60,16 +64,40 @@ input[type="text"]:focus {
 button {
   border: 1px solid rgb(11, 94, 215);
   border-radius: 10px;
-  border-color: rgb(11, 94, 215);
   background: rgb(11, 94, 215);
   color: white;
   padding: 0.3em;
-  width: 100px;
+  width: 110px;
 }
 
+footer {
+  position: relative;
+  left: 30px;
+  display: inline-block;
+  width: 90%;
+  padding: 1em;
+}
 
+footer button {
+  margin-left: 0.5em;
+}
 
-.text {
-  color: rgb(145, 35, 27);
+.red {
+  border: 1px solid rgb(145, 35, 27);
+  background: rgb(145, 35, 27);
+}
+
+.orange {
+  border: 1px solid rgb(243, 127, 48);
   background: rgb(243, 127, 48);
+}
+
+.blue {
+  border: 1px solid rgb(11, 94, 215);
+  background: rgb(11, 94, 215);
+}
+
+.green {
+  border: 1px solid rgb(84, 173, 65);
+  background: rgb(84, 173, 65);
 }
