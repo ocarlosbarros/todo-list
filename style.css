@@ -7,10 +7,14 @@
 body {
   background: rgb(84, 173, 65);
   font-size: 15px;
+  width: 100vw;
+  height: 100vh;
 }
 
 main {
-  margin: 2em auto;
+  position: relative;
+  top: 35%;
+  margin: auto;
   width: 80%;
   background: white;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
