@@ -6,10 +6,23 @@
 
 body {
   background: rgb(84, 173, 65);
+  font-size: 15px;
 }
 
 main {
-  margin: auto;
+  margin: 2em auto;
   width: 80%;
-  border: 1px solid black;
+  background: white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  padding: 1em;
+}
+
+main h1 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+main p {
+  text-align: center;
+  margin-bottom: 1em;
 }
