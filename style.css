@@ -13,7 +13,7 @@ body {
 }
 
 main {
-  background: white;
+  background-color: white;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
   margin: auto;
   width: 80%;
@@ -64,7 +64,7 @@ input[type="text"]:focus {
 button {
   border: 1px solid rgb(11, 94, 215);
   border-radius: 10px;
-  background: rgb(11, 94, 215);
+  background-color: rgb(11, 94, 215);
   color: white;
   padding: 0.3em;
   width: 110px;
@@ -84,22 +84,22 @@ footer button {
 
 .red {
   border: 1px solid rgb(145, 35, 27);
-  background: rgb(145, 35, 27);
+  background-color: rgb(145, 35, 27);
 }
 
 .orange {
   border: 1px solid rgb(243, 127, 48);
-  background: rgb(243, 127, 48);
+  background-color: rgb(243, 127, 48);
 }
 
 .blue {
   border: 1px solid rgb(11, 94, 215);
-  background: rgb(11, 94, 215);
+  background-color: rgb(11, 94, 215);
 }
 
 .green {
   border: 1px solid rgb(84, 173, 65);
-  background: rgb(84, 173, 65);
+  background-color: rgb(84, 173, 65);
 }
 
 .selected {
